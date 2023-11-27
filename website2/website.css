@@ -1,0 +1,107 @@
+.bgs{background: rgb(241, 241, 239);}
+.bgw{background: white;}
+
+.cll{color: grey;}
+.clw{color: white;}
+.clo{color: rgb(246, 170, 88);}
+.clr{color: #f6aa28;}
+.ccl{color: #6e7051;}
+
+.h30{height: 30px;}
+.h50{height: 50px;}
+.h100{height: 100px;}
+.h150{height: 150px;}
+.h200{height: 250px;}
+.h500{height: 500px;}
+.h700{height: 700px;}
+.h750{height: 750px;}
+.h800{height: 800px;}
+.h850{height: 850px;}
+
+.mt{margin-top: 10px;}
+.mt1{margin-top: 50px;}
+.mt2{margin-top: 100px;}
+.mt5{margin-top: 280px;}
+
+.disp{display: inline;}
+
+.ml{margin-left: 10px;}
+.ml2{margin-left: 20px;}
+.ml3{margin-left: 30px;}
+.ml4{margin-left: 40px;}
+.ml5{margin-left: 50px;}
+.ml6{margin-left: 60px;}
+.ml7{margin-left: 70px;}
+.ml9{margin-left: 90px;}
+
+.pd{padding-top: 2px;}
+.pd2{padding: 37px 0px;}
+.pd3{padding: 50px 0px;}
+.pd4{padding: 0px 56px;}
+.pd5{padding: 96px 40px;}
+
+.fs{font-size: 20px;}
+.fs15{font-size: 15px;}
+.fs2{font-size: 25px;}
+.fs5{font-size: 45px;}
+.fs10{font-size: 80px;}
+
+.btn2{height: 50px;border: 0px;background: white;}
+.btn2:hover{background-color: #262b2c;color: white;}
+
+.btn1{height: 50px;border: 0px;background-color: white;}
+.btn1:hover{background-color: #262b2c;color: white;}
+
+.mb{border-bottom: 2px solid #f6aa28;}
+.mb:hover{border-bottom: 2px solid black;}
+
+.tal{text-align: left;}
+.tar{text-align: right;}
+.tac{text-align: center;}
+
+.ele{align-items: center;align-content: center;}
+.jus{justify-content: center;justify-items: center;}
+.jb{justify-content: space-between;}
+
+
+.disp{display: inline;}
+
+.btn3{height: 40px;width: 100%;background: #444242;border: 0px;color: white;}
+.btn3:hover{background: black;color: white;}
+
+.btn4{height: 50px;width: 150px;background: none;border: 2px solid white;color: white;}
+.btn4:hover{background: white;color: black;}
+
+.hide    .btn3{
+    display: none;
+}
+
+.hide:hover .btn3{
+    display: block;
+}
+
+.h50{
+    height: 40px ;
+}
+.w100{
+    width: 100%;
+}
+
+.bgs{
+    background: #f1f1ef;
+}
+
+.btn5{height: 50px;width: 50px;border-radius: 100%;background: rgb(110, 112, 81);border: 0px;position: absolute;margin-left: 400px;color: white;}
+
+.rt{transform: scale(0.9);transition: 1s;}
+.rt:hover{transform: scale(1.0);transition: 1s;}
+
+
+.btn6{height: 50px;width: 200px;border: 0px;background: #6e7051;
+    color: white;}
+.btn6:hover{background-color: black;}
+
+.hv{color: black;}
+.hv:hover{color: rgb(246, 170, 40);}
+
+

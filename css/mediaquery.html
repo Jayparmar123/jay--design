@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Media query css</title>
+
+	<style>
+		
+.w100{width: 100%}
+.w50{width: 50%}
+.w25{width: 25%}
+.w16{width: 16%}
+.W17{width: 17%}
+.w6{width: 6%}
+.w65{width: 6.5%}
+.w7{width: 7%}
+.w75{width: 7.5%}
+.w8{width: 8%}
+
+.fl{float: left;}
+
+.h300{height: 300px}
+
+.bgr{background: red}
+
+.bgb{background: blue;}
+
+.bgg{background: green;}
+
+.bgy{background: yellow;}
+
+.bggy{background: greenyellow;}
+
+.bgv{background: violet;}
+
+.bl{background: lightblue;}
+
+.bg{background: darkviolet;}
+
+.bh{background: skyblue;}
+
+.be{background: lightgray;}
+
+
+.mt100{margin-top: 100px}
+
+
+
+@media(max-width:700px){
+.w50{width: 100%}
+.bgr{background: orange;}
+.w25{width: 100%}
+
+.w16{width: 50%}
+.w17{width: 100%}
+
+.w6{width: 20%}
+.w65{width: 25%}
+.w7{width: 33.33%}
+.w75{width: 50%}
+.w8{width: 100%}
+}
+
+
+@media(max-width:500px){
+.w50{width: 100%}
+.bgr{background: orange;}
+.w25{width: 100%}
+
+.w16{width: 50%}
+.w17{width: 100%}
+
+.w6{width: 100%}
+.w65{width: 100%}
+.w7{width: 100%}
+.w75{width: 100%}
+.w8{width: 100%}
+}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="w100 h300">
+		<div class="h300 w50 fl bgr"></div>
+		<div class="h300 w50 bgb fl"></div>
+	</div>
+
+	<div class="h300 w100 mt100">
+		<div class="h300 w25 fl bgr"></div>
+		<div class="h300 w25 fl bgb"></div>
+		<div class="h300 w25 fl bgg"></div>
+		<div class="h300 w25 fl bgy"></div>
+	</div>
+
+	<div class="h300 w100 mt100">
+		<div class="h300 w16 fl bgr"></div>
+		<div class="h300 w16 fl bgb"></div>
+		<div class="h300 w17 fl bgg"></div>
+		<div class="h300 w16 fl bgy"></div>
+		<div class="h300 w16 fl bggy"></div>
+		<div class="h300 w17 fl bgv"></div>
+	</div>
+
+	<div class="h300 w100 mt100">
+		<div class="h300 w6 fl bgr"></div>
+		<div class="h300 w6 fl bgb"></div>
+		<div class="h300 w6 fl bgg"></div>
+		<div class="h300 w6 fl bgy"></div>
+		<div class="h300 w6 fl bggy"></div>
+		<div class="h300 w65 fl bgv"></div>
+		<div class="h300 w65 fl bl"></div>
+		<div class="h300 w65 fl bg"></div>
+		<div class="h300 w65 fl bh"></div>
+		<div class="h300 w7 fl be"></div>
+		<div class="h300 w7 fl bgr"></div>
+		<div class="h300 w7 fl bgb"></div>
+		<div class="h300 w75 fl bgg"></div>
+		<div class="h300 w75 fl bggy"></div>
+		<div class="h300 w8 fl bgv"></div>
+	</div>
+
+
+
+</body>
+</html>
